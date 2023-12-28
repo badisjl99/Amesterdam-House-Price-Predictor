@@ -44,4 +44,6 @@ def predict():
     return jsonify({'predicted_price': predicted_price[0]})
 
 if __name__ == '__main__':
-    app.run(port=5000)
+   
+    app.run(host='0.0.0.0', port=5000)
+
